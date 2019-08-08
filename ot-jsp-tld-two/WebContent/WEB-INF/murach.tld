@@ -24,5 +24,20 @@
  		<tagclass>com.ot.murach.tags.IfWeekdayTag</tagclass>
  		<bodycontent>JSP</bodycontent>
  	</tag>
+ 	
+ 	<tag>
+ 		<name>ifEmptyMark</name>
+ 		<tagclass>com.ot.murach.tags.IfEmptyMarkTag</tagclass>
+ 		<bodycontent>empty</bodycontent>
+ 		<attribute>
+ 			<name>color</name>
+ 			<required>false</required>
+ 		</attribute>
+ 		<attribute>
+ 			<name>field</name>
+ 			<required>true</required>
+ 			<rtexprvalue>true</rtexprvalue>
+ 		</attribute>
+ 	</tag>
  
  </taglib>

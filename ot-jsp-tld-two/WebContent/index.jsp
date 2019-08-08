@@ -15,5 +15,14 @@
 	<m:ifWeekday>
 		<p>Today is weekday</p>
 	</m:ifWeekday>
+	
+	<p>
+		<m:ifEmptyMark color="blue" field="" /> marks required fields
+	</p>
+	<br />
+	<label class="pad_top">Last Name:</label>
+	<input type="text" name="lastName" value="${user.lastName}">
+	<m:ifEmptyMark color="blue" field="${user.lastName}" />
+	<br />
 </body>
 </html>
