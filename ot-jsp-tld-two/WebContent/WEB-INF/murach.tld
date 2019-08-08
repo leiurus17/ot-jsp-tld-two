@@ -18,5 +18,11 @@
  		<name>currentTime</name>
  		<tagclass>com.ot.murach.tags.CurrentTimeTag</tagclass>
  	</tag>
+ 	
+ 	<tag>
+ 		<name>ifWeekday</name>
+ 		<tagclass>com.ot.murach.tags.IfWeekdayTag</tagclass>
+ 		<bodycontent>JSP</bodycontent>
+ 	</tag>
  
  </taglib>

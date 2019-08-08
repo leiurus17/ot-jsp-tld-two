@@ -11,5 +11,9 @@
 	<m:currentDate />
 	<br />
 	<m:currentTime />
+	<br />
+	<m:ifWeekday>
+		<p>Today is weekday</p>
+	</m:ifWeekday>
 </body>
 </html>
