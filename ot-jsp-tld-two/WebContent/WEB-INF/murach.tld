@@ -4,7 +4,7 @@
  xsi:schemaLocation="http://java.sun.com/xml/ns/j2eeweb-jsptaglibrary_2_0.xsd">
  
  	<tlib-version>1.0</tlib-version>
- 	<short_name>murach</short_name>
+ 	<short-name>murach</short-name>
  	<uri>/WEB-INF/murach.tld</uri>
  	<info>A custom tag library developed by Mike Murach and Associates</info>
  
